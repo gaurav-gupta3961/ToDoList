@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewchild"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="@color/c4"
+        android:paddingLeft="10dp"
+        android:enabled="true"
+        android:focusable="true"
+        android:inputType="textMultiLine"
+        android:isScrollContainer="true"
+        android:lines="6"
+        android:maxLines="6"
+        android:minLines="6"
+        />
+</LinearLayout>
